@@ -1,0 +1,4 @@
+#!/bin/sh
+
+latexmk -jobname=mazurov-signoff -pdf --outdir=build -c main.tex
+./scripts/bootstrap
